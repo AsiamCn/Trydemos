@@ -18,11 +18,17 @@ android {
         }
     }
 }
+repositories {
+    jcenter()
+}
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:21.0.3'
     //    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.github.navasmdc:MaterialDesign:1.+@aar'
     compile files('libs/gradle-wrapper.jar')
     compile project(':photoViewerLib')
+    compile project(':wave_textviewLib')
+    compile 'com.jakewharton:butterknife:6.1.0'
 }

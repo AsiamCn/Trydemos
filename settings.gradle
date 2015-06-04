@@ -1,1 +1,2 @@
 include ':app' , ':photoViewerLib'
+include ':app' , ':wave_textviewLib'

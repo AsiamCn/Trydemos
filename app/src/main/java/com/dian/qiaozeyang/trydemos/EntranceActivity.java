@@ -12,12 +12,13 @@ import com.dian.qiaozeyang.trydemos.activities.PackageNameActivity;
 import com.dian.qiaozeyang.trydemos.activities.PhotoViewerActivity;
 import com.dian.qiaozeyang.trydemos.activities.StartDaocaoActivity;
 import com.dian.qiaozeyang.trydemos.activities.SwipeToFinshActivity;
+import com.dian.qiaozeyang.trydemos.activities.WaveTextView;
 
 /**
  * Created by  on 15/4/21.
  */
 public class EntranceActivity extends Activity implements AdapterView.OnItemClickListener{
-    private String [] dataName = {"查看包名","滑动返回","启动稻草","photoViewer"};
+    private String [] dataName = {"查看包名","滑动返回","启动稻草","photoViewer", "waveLoading"};
     private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class EntranceActivity extends Activity implements AdapterView.OnItemClic
 
 
     private Class [] dataClass = {PackageNameActivity.class, SwipeToFinshActivity.class,
-            StartDaocaoActivity.class, PhotoViewerActivity.class};
+            StartDaocaoActivity.class, PhotoViewerActivity.class, WaveTextView.class};
 
 
     @Override

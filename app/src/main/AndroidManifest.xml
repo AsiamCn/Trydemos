@@ -30,6 +30,8 @@
             >
         </activity>
         <activity android:name=".activities.PhotoViewerActivity"/>
+
+        <activity android:name=".activities.WaveTextView"/>
         
          <receiver android:name=".receiver.WidgetProvider">
              <intent-filter>
